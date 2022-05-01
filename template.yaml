@@ -40,4 +40,4 @@ Resources:
     Properties: 
       AuthType: NONE
       Qualifier: String
-      TargetFunctionArn: !Ref primer
+      TargetFunctionArn: !GetAtt primer.Arn
