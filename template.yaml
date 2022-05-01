@@ -32,12 +32,3 @@ Resources:
               })
           }
       Description: Invoke a function during stack creation.
-      TracingConfig:
-        Mode: Active
-
-  LambdaURL:
-    Type: AWS::Lambda::Url
-    Properties: 
-      AuthType: NONE
-      Qualifier: String
-      TargetFunctionArn: !GetAtt primer.Arn
