@@ -5,7 +5,7 @@ Resources:
     Type: AWS::Lambda::Function
     Properties:
       Runtime: nodejs12.x
-      Role: arn:aws:iam::367988507966:role/service-role/helloworld-apii-role-qp6bncyo
+      Role: arn:aws:iam::238275931489:role/LambdaFullAccess
       Handler: index.handler
       Code:
         ZipFile: |
