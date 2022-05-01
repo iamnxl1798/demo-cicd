@@ -13,7 +13,7 @@ Resources:
           var response = require('cfn-response')
           exports.handler = function(event, context) {
               console.log("REQUEST RECEIVED:\n" + JSON.stringify(event))
-              // For Delete requests, immediately send a SUCCESS response.
+              // CICD.
               if (event.RequestType == "Delete") {
                   response.send(event, context, "SUCCESS")
                   return
